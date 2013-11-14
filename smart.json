@@ -6,9 +6,6 @@
     "version": "0.3.2",
     "git": "https://github.com/superstringsoftware/observatory-apollo.git",
     "packages": {
-        "observatory-galileo": {
-            "git": "https://github.com/superstringsoftware/observatory-galileo.git"
-        }
 
     }
 }

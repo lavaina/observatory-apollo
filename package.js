@@ -4,8 +4,8 @@ try {
     });
 
     Package.on_use(function (api) {
-        console.log("loading observatory: apollo");
-        api.use(['coffeescript', 'underscore','standard-app-packages','ejson'], ['client','server']);
+//        console.log("loading observatory: apollo");
+        api.use(['coffeescript', 'underscore','observatory-galileo','standard-app-packages','ejson'], ['client','server']);
         //api.use(['webapp'], ['server']);
 
         api.add_files('lib/server/ObservatoryServer.coffee','server');
